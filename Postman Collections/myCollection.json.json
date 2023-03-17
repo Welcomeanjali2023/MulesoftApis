@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "Linkit Search District Experience API Copy",
-			"_postman_id": "09db5994-6bcf-4a92-a028-6b3b6ca7b2d9",
+			"id": "09db5994-6bcf-4a92-a028-6b3b6ca7b2d9",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -45,6 +45,122 @@
 						{
 							"key": "id",
 							"value": "29129",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Azure Token",
+			"id": "871b6b9f-6c50-4ef0-bd40-2b1ab9d8c81b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/ecmascript",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": ".default",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "76340c37-0c7a-440f-9535-db437e0e2923",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "EMh7Q~mKhWjTleURUveyIkJZPEW~CJc53QBpP",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://login.microsoftonline.com/b2079722-dcf2-4a8d-b9f2-f88833a17c12/oauth2/v2.0/token",
+					"protocol": "https",
+					"host": [
+						"login",
+						"microsoftonline",
+						"com"
+					],
+					"path": [
+						"b2079722-dcf2-4a8d-b9f2-f88833a17c12",
+						"oauth2",
+						"v2.0",
+						"token"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Sales Order",
+			"id": "935c0a59-7a75-4855-9dda-2e3cc4afd5d6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "P1yr$9gu",
+						"username": "ABEKAINT"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://abbtest.knkna.com:7048/BC170/api/knk/AbekaOrderAPI/v2.0/companies(f30e1c95-a2b7-eb11-8a03-000d3a561f32)/OrderExport",
+					"protocol": "https",
+					"host": [
+						"abbtest",
+						"knkna",
+						"com"
+					],
+					"port": "7048",
+					"path": [
+						"BC170",
+						"api",
+						"knk",
+						"AbekaOrderAPI",
+						"v2.0",
+						"companies(f30e1c95-a2b7-eb11-8a03-000d3a561f32)",
+						"OrderExport"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "no eq '1'",
 							"disabled": true
 						}
 					]
