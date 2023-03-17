@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "e5d8ab9d-199d-4d3d-851d-56fd5f75083a",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Linkit Search District Experience API Copy",
+			"_postman_id": "09db5994-6bcf-4a92-a028-6b3b6ca7b2d9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJub25jZSI6InNGQkdXZWFWcXFGNVI4OHZIWDNpZ0tYU2EyLTltVUotVUdRaTJtT2FBeXciLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9iMjA3OTcyMi1kY2YyLTRhOGQtYjlmMi1mODg4MzNhMTdjMTIvIiwiaWF0IjoxNjc5MDUwMTMzLCJuYmYiOjE2NzkwNTAxMzMsImV4cCI6MTY3OTA1NDAzMywiYWlvIjoiRTJaZ1lDZ1NDSTNLVzcrclNZNngwOGhUb0M0REFBPT0iLCJhcHBfZGlzcGxheW5hbWUiOiJlQ29tbUV4cEFwcCIsImFwcGlkIjoiNzYzNDBjMzctMGM3YS00NDBmLTk1MzUtZGI0MzdlMGUyOTIzIiwiYXBwaWRhY3IiOiIxIiwiaWRwIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvYjIwNzk3MjItZGNmMi00YThkLWI5ZjItZjg4ODMzYTE3YzEyLyIsImlkdHlwIjoiYXBwIiwib2lkIjoiM2M1ZWFiMGQtNDU2My00ZTk5LTk5OGItMmU4ZDY4NjA1NWM5IiwicmgiOiIwLkFYWUFJcGNIc3ZMY2pVcTU4dmlJTTZGOEVnTUFBQUFBQUFBQXdBQUFBQUFBQUFDMEFBQS4iLCJzdWIiOiIzYzVlYWIwZC00NTYzLTRlOTktOTk4Yi0yZThkNjg2MDU1YzkiLCJ0ZW5hbnRfcmVnaW9uX3Njb3BlIjoiTkEiLCJ0aWQiOiJiMjA3OTcyMi1kY2YyLTRhOGQtYjlmMi1mODg4MzNhMTdjMTIiLCJ1dGkiOiJoczhPQjBMSHEweUxVOTJSa29rdEFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyIwOTk3YTFkMC0wZDFkLTRhY2ItYjQwOC1kNWNhNzMxMjFlOTAiXSwieG1zX3RjZHQiOjE0NDg5MjY0NzB9.AmrfxSN5-SUxx_3TX8ocrpHqZOzBgYWFWAVkxa6pDdpel-Fpwj01Mw5T_sJwoFM-par7g2J4pl3MOxVd897XoHtX9k-PweRy9za-ITGGwRJtI8u7uf1WTQr10lyQAg5NtZ5zR4Q796hv2pCVr0cie3yZWAKk4n_BDooeRuPABJCV8DKzvTaWLoG2scjyBINnxhb84-kL5RSz57NpkAFc4IuGuNIyDgWOG3dEPwUORteg0jBZTW2JN0Bu2xcUIeP17V2mMHaSLH2Sy7GkqHhIN94T1ldpdp9179mMRmk8EGOVkW1mziogVYyGAcisA6JxbPSIfnbn7NA5v_JYth_pzA"
+					}
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-correlation-id",
+						"value": "915b754c-d0fd-11ea-87d0-0242ac130003",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dev.api.abeka.com/abeka-dev-exp-ecomm-service-api-v1/api/linkit/searchdistrict",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"api",
+						"abeka",
+						"com"
+					],
+					"path": [
+						"abeka-dev-exp-ecomm-service-api-v1",
+						"api",
+						"linkit",
+						"searchdistrict"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "29129",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
