@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "f209ffdb-dcd5-4a5d-ade6-b3bb578a9c3d",
+		"name": "Linkit Experience API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Linkit Search District Experience API",
+			"_postman_id": "ee88b130-0150-4450-9b89-b3594e99cdfd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-correlation-id",
+						"value": "915b754c-d0fd-11ea-87d0-0242ac130003",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dev.api.abeka.com/abeka-dev-exp-ecomm-service-api-v1/api/linkit/searchdistrict",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"api",
+						"abeka",
+						"com"
+					],
+					"path": [
+						"abeka-dev-exp-ecomm-service-api-v1",
+						"api",
+						"linkit",
+						"searchdistrict"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "29129",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
